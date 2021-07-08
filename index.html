@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hearthstone Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="menu">
+    <section class="hero">
+      <ol class="filter">
+        <li class="filter-iten">
+          <label for="cardsQ">Qualitys:</label>
+          <select name="cardsQ" id="cardsQ">
+            <option value=""></option>
+            <option value="Common">Common</option>
+            <option value="Free">Free</option>
+            <option value="Rare">Rare</option>
+            <option value="Epic">Epic</option>
+            <option value="Legendary">Legendary</option>
+          </select>
+
+          <label for="cardsT">Types:</label>
+          <select name="cardsT" id="cardsT">
+            <option value=""></option>
+            <option value="hero">Hero</option>
+            <option value="minion">Minion</option>
+            <option value="spell">Spell</option>
+            <option value="weapon">Weapon</option>
+            <option value="enchantment">Enchantment</option>
+            <option value="hero-power">Hero Power</option>
+          </select>
+
+          <label for="cardsF">Factions:</label>
+          <select name="cardsF" id="cardsF">
+            <option value=""></option>
+            <option value="horde">Horde</option>
+            <option value="neutral">Neutral</option>
+            <option value="alliance">Alliance</option>
+          </select>
+
+          <label for="cardsC">Classes:</label>
+          <select name="cardsC" id="cardsC">
+            <option value=""></option>
+            <option value="death-knight">Death Knight</option>
+            <option value="druid">Druid</option>
+            <option value="mage">Mage</option>
+            <option value="paladin">Paladin</option>
+            <option value="priest">Priest</option>
+            <option value="hunter">Hunter</option>
+            <option value="rogue">Rogue</option>
+            <option value="shaman">Shaman</option>
+            <option value="warlock">Warlock</option>
+            <option value="Warrior">Warrior</option>
+            <option value="neutral">Neutral</option>
+            <option value="dream">Dream</option>
+            <option value="whizbang">Whizbang</option>
+            <option value="demon-hunter">Demon Hunter</option>
+          </select>
+
+          <label for="numbersOfCards">Numbers of cards</label>
+          <select name="numbersOfCards" id="numbersOfCards">
+            <option value="15">15</option>
+            <option value="30">30</option>
+            <option value="60">60</option>
+          </select>
+        </li>
+      </ol>
+    </section>
+    <section id="cards"></section>
+  </main>
+
+  <script src="front.js"></script>
+</body>
+
+</html>

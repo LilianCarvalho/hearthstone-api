@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://play-lh.googleusercontent.com/LieCThCpwcLH4BpfJ_Ev1RaTYyo1jiCwJvh0E4KNQp1JqveJgjk9aMC5aNd_g-BrtZ8=w412-h220-rw');
+    background-repeat: no-repeat;
+    width: unset;
+    background-size: cover;
+}
+main.menu {
+    display: flex;
+    justify-content: center;
+    background: snow;
+}
